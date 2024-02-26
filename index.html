@@ -1586,4 +1586,21 @@ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_rende
 	</body>
 
 <!-- Mirrored from www.acemortgagegroup.ca/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jan 2024 19:28:04 GMT -->
+<!--
+	Used JQuery function to target the smartmenus by id.
+	Added the script to handle the dropmenu.
+-->
+<script>
+
+	jQuery(function () {
+		jQuery('#menu-1-58078db').smartmenus(
+			{
+				subIndicatorsPos: 'append',
+				subMenusMaxWidth: 'auto',
+				subIndicatorsText: '<span class="sub-arrow"><i class="fas fa-chevron-down"></i></span>'
+			});
+	});
+
+</script>
+
 </html>
