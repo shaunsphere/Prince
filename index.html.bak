@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="UTF-8">
 <script>
 var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
 </script>
@@ -250,15 +250,11 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Ace Mortgage Group" />
-	<meta property="og:description" content="We&#039;re in the people business, we just happen to do mortgages.® We believe that every client deserves the best care and service when it comes to their financial needs and goals. Our mission is to create an unparalleled experience for each of our clients." />
-	<meta property="og:url" content="http://anhnguyen.xevate.com/" />
+    <meta property="og:url" content="http://anhnguyen.xevate.com/" />
 	<meta property="og:site_name" content="Ace Mortgage Group" />
 	<meta property="article:modified_time" content="2023-04-14T14:34:40+00:00" />
 	<meta property="og:image" content="imgs/Acelogo.png" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.acemortgagegroup.ca/","url":"https://www.acemortgagegroup.ca/","name":"Ace Mortgage Group","isPartOf":{"@id":"https://www.acemortgagegroup.ca/#website"},"about":{"@id":"https://www.acemortgagegroup.ca/#organization"},"primaryImageOfPage":{"@id":"https://www.acemortgagegroup.ca/#primaryimage"},"image":{"@id":"https://www.acemortgagegroup.ca/#primaryimage"},"thumbnailUrl":"https://www.acemortgagegroup.ca/imgs/Acelogo.png","datePublished":"2017-08-01T12:13:15+00:00","dateModified":"2023-04-14T14:34:40+00:00","description":"We're in the people business, we just happen to do mortgages.® We believe that every client deserves the best care and service when it comes to their financial needs and goals. Our mission is to create an unparalleled experience for each of our clients.","breadcrumb":{"@id":"https://www.acemortgagegroup.ca/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.acemortgagegroup.ca/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.acemortgagegroup.ca/#primaryimage","url":"https://www.acemortgagegroup.ca/imgs/Acelogo.png","contentUrl":"https://www.acemortgagegroup.ca/imgs/Acelogo.png","width":90,"height":90},{"@type":"BreadcrumbList","@id":"https://www.acemortgagegroup.ca/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.acemortgagegroup.ca/#website","url":"https://www.acemortgagegroup.ca/","name":"Ace Mortgage Group","description":"Ace Mortgage Group","publisher":{"@id":"https://www.acemortgagegroup.ca/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.acemortgagegroup.ca/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.acemortgagegroup.ca/#organization","name":"Ace Mortgage Group","url":"https://www.acemortgagegroup.ca/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.acemortgagegroup.ca/#/schema/logo/image/","url":"http://anhnguyen.xevate.com/wp-content/uploads/2023/03/English-WhiteGold.png","contentUrl":"http://anhnguyen.xevate.com/wp-content/uploads/2023/03/English-WhiteGold.png","width":907,"height":149,"caption":"Ace Mortgage Group"},"image":{"@id":"https://www.acemortgagegroup.ca/#/schema/logo/image/"}}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
 
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 <link rel="alternate" type="application/rss+xml" title="Ace Mortgage Group &raquo; Feed" href="feed" />
@@ -295,6 +291,15 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='elementor-post-2674-css' href='wp-content/uploads/elementor/css/post-26746c7d.css?ver=1703613039' media='all' />
 <link rel='stylesheet' id='elementor-post-6272-css' href='wp-content/uploads/elementor/css/post-62726c7d.css?ver=1703613039' media='all' />
 <link rel='stylesheet' id='elementor-post-10754-css' href='wp-content/uploads/elementor/css/post-107546c7d.css?ver=1703613039' media='all' />
+<link rel='stylesheet' id='elementor-post-15-css' href='wp-content/uploads/elementor/css/post-158cc8.css?ver=1703634689' media='all' />
+<link rel='stylesheet' id='elementor-post-7557-css' href='wp-content/uploads/elementor/css/post-755735f9.css?ver=1703613213' media='all' />
+<link rel='stylesheet' id='elementor-post-6272-css' href='wp-content/uploads/elementor/css/post-62726c7d.css?ver=1703613039' media='all' />
+<link rel='stylesheet' id='gforms_reset_css-css' href='wp-content/plugins/gravityforms/legacy/css/formreset.min4dc3.css?ver=2.8.2' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css' href='wp-content/plugins/gravityforms/legacy/css/formsmain.min4dc3.css?ver=2.8.2' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css' href='wp-content/plugins/gravityforms/legacy/css/readyclass.min4dc3.css?ver=2.8.2' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css' href='wp-content/plugins/gravityforms/legacy/css/browsers.min4dc3.css?ver=2.8.2' media='all' />
+<link rel='stylesheet' id='astra-gravity-forms-css' href='wp-content/themes/astra/assets/css/minified/compatibility/gravity-forms.min83b6.css?ver=4.6.2' media='all' />
+<link rel='stylesheet' id='vine-group-theme-css-css' href='wp-content/themes/vine-group/style8a54.css?ver=1.0.0' media='all' />
 <link rel='stylesheet' id='vine-group-theme-css-css' href='wp-content/themes/vine-group/style8a54.css?ver=1.0.0' media='all' />
 
 <link rel='stylesheet' id='elementor-icons-shared-0-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3' media='all' />
@@ -308,7 +313,7 @@ var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":
 </script>
 <script src="wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookiea02c.js?ver=4.6.9" id="wpml-cookie-js" defer data-wp-strategy="defer"></script>
 <!--[if IE]>
-<script src="http://anhnguyen.xevate.com/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.6.2" id="astra-flexibility-js"></script>
+<script src="https://www.vinegroup.ca/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.6.2" id="astra-flexibility-js"></script>
 <script id="astra-flexibility-js-after">
 flexibility(document.documentElement);
 </script>
@@ -1581,4 +1586,21 @@ gform.initializeOnLoaded( function() {jQuery(document).trigger('gform_post_rende
 	</body>
 
 <!-- Mirrored from www.acemortgagegroup.ca/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jan 2024 19:28:04 GMT -->
+<!--
+	Used JQuery function to target the smartmenus by id.
+	Added the script to handle the dropmenu.
+-->
+<script>
+
+	jQuery(function () {
+		jQuery('#menu-1-58078db').smartmenus(
+			{
+				subIndicatorsPos: 'append',
+				subMenusMaxWidth: 'auto',
+				subIndicatorsText: '<span class="sub-arrow"><i class="fas fa-chevron-down"></i></span>'
+			});
+	});
+
+</script>
+
 </html>
